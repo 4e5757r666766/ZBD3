@@ -1,0 +1,88 @@
+header img{
+    width:100px;
+}
+.header{
+    background-color: DeepPink;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #FFE4E1	;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    text-align: center;
+    background-color: deeppink;
+    color:#FFE4E1;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 15px 10px 15px 10px;
+    border-radius: 15px;
+}
+nav{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #FFE4E1	;
+    background-color: deeppink;
+}
+p{
+    text-align: center;
+    color: #FFE4E1	;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: HotPink;
+}
+ul{
+    color: rgb(128, 0, 98);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 400px;
+    margin: 0 30px;
+    background-color: DeepPink;
+}
+article{
+      width: 300px;
+    height: 300px;
+    text-align:center;
+    padding:10px;    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: hotpink;
+    font-size: small;
+
+   
+}
+.d{
+    display: flex;
+    justify-content: center;}
+    .g a{
+        font-size:20px;
+        text-decoration: none;
+        background-color: rgb(255, 58, 160);
+        border-radius: 15px;
+        color: rgb(128, 0, 98);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px;
+    }
+    header a:hover{
+        background-color: darkseagreen;
+    }
+    .g a:hover{
+        background-color: lightgreen;
+    }
